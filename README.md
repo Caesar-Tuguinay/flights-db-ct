@@ -1,6 +1,6 @@
 # Database Class Assignment to Implement Flights Booking System with Transactions
 
-Link to Query and Transaction Management Code: [src/main/java/flightapp/Query.java](Query.java)
+Link to Query and Transaction Management Code: [src/main/java/flightapp/Query.java](Query)
 
 Link to Test Cases Code: [github.com/ctuguinay/Flights-Database-CT/tree/master/cases](/cases)
 
