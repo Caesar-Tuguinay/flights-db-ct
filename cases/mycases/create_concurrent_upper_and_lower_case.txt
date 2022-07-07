@@ -1,0 +1,28 @@
+# Two terminals will attempt to create two users that go by user1 and User1
+# However, only one will be able to go through due to usernames being 
+# case insensitive unique
+create user1 user1 10000
+quit
+*
+# Terminal 1 suceeds in user creation
+Created user user1
+Goodbye
+|
+# Terminal 1 fails to create user as Terminal 2 has created User1 and 
+# unique usernames are case insensitive
+Failed to create user
+Goodbye
+*
+# Terminal 2
+create User1 user1 10000
+quit
+*
+# Terminal 2 suceeds in user creation
+Failed to create user
+Goodbye
+|
+# Terminal 2 fails to create user as Terminal 1 has created user1 and 
+# unique usernames are case insensitive
+Created user User1
+Goodbye
+*

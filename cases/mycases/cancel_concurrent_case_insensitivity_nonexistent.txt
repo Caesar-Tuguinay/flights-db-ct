@@ -1,0 +1,106 @@
+create User1 user1 10000
+login User1 user1
+search "Seattle WA" "Boston MA" 1 1 1
+book 0
+reservations
+pay 2
+cancel 2
+quit
+*
+Created user User1
+Logged in as User1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Booked flight(s), reservation ID: 1
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Failed to create user
+Logged in as User1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+You cannot book two flights in the same day
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Created user User1
+Logged in as User1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+You cannot book two flights in the same day
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Failed to create user
+Logged in as User1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Booked flight(s), reservation ID: 1
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+*
+create user1 user1 10000
+login user1 user1
+search "Seattle WA" "Boston MA" 1 1 1
+book 0
+reservations
+pay 2
+cancel 2
+quit
+*
+Failed to create user
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+You cannot book two flights in the same day
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Booked flight(s), reservation ID: 1
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Failed to create user
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Booked flight(s), reservation ID: 1
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+|
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+You cannot book two flights in the same day
+Reservation 1 paid: false:
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Cannot find unpaid reservation 2 under user: user1
+Failed to cancel reservation 2
+Goodbye
+*

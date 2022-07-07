@@ -1,0 +1,24 @@
+create User1 user1 10000
+login User1 user1
+quit
+*
+Created user User1
+Logged in as User1
+Goodbye
+|
+Failed to create user
+Logged in as User1
+Goodbye
+*
+create user1 user1 10000
+login user1 user1
+quit
+*
+Failed to create user
+Logged in as user1
+Goodbye
+|
+Created user user1
+Logged in as user1
+Goodbye
+*
