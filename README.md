@@ -14,17 +14,18 @@ Link to ER Diagram/DB Design: [Design](github.com/ctuguinay/Flights-Database-CT/
 
 ## How to Run Locally:
 
-Make sure your are at the top of the repository. This first command will package files and dependencies into a single jar file:
+* Make sure your are at the top of the repository. 
+* This first command will package files and dependencies into a single jar file:
 ```
 $ mvn clean compile assembly:single
 ```
 
-This second command will run the main method from `FlightService.java` (not my own code), the interface logic for `Query.java` (my own code):
+* This second command will run the main method from `FlightService.java` (not my own code), which uses the interface logic for `Query.java` (my own code):
 ```
 $ java -jar target/FlightApp-1.0-jar-with-dependencies.jar
 ```
 
-You should get the following in your UI:
+* You should get the following in your UI:
 ```
 *** Please enter one of the following commands ***
 > create <username> <password> <initial amount>
